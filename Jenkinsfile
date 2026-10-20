@@ -8,6 +8,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'devops-platform:ci'
+        COMPOSE_PROJECT_NAME = 'self-hosted-devops-platform'
     }
 
     stages {
